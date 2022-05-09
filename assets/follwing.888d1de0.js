@@ -1,0 +1,1 @@
+import{u as r,r as s,f as t,h as u}from"./index.d750e11f.js";import{s as l}from"./vendor.e80f1292.js";let a=r(),{isLogin:f}=l(a);const p=(e,o)=>{if(!f.value){s.push("/user/login");return}e.value?t(o).then(()=>{e.value=!1}):u(o).then(()=>{e.value=!0})};export{p as u};
